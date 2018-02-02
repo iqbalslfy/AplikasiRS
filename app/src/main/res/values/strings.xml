@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Application RS</string>
+    <string name="setting">Setting</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="account">My Account</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="app_work">Sistem Informasi Rumah Sakit</string>
+    <string name="company">MY COMPANY</string>
+    <string name="jadwal">Jadwal dan Reservasi</string>
+    <string name="doctor">Doctor Pribadi</string>
+    <string name="check_up">Check Up Reminder</string>
+    <string name="check_up_history">Check Up History</string>
+    <string name="bmi">BMI</string>
+    <string name="bill_reminder">Bill Reminder</string>
+    <string name="lasik">Layanan Lasik</string>
+    <string name="retina">Layanan Retina</string>
+    <string name="okuloplastik">Layanan Okuloplastik</string>
+    <string name="mata_anak">Layanan Mata Anak</string>
+    <string name="strabismus">Layanan Strabismus</string>
+    <string name="lensa_kontak">Layanan Lensa Kontak</string>
+    <string name="bbi">Berat Badan Ideal</string>
+    <string name="hlt">Hitung Lemak Tubuh</string>
+    <string name="rpi">Rasio Pinggang Ideal</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="messages">Messages</string>
+
+</resources>

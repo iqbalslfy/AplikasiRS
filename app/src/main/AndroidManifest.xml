@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectrs.aplikasirs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_hospital"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_hospital"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.">
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.JadwalActivity"
+            android:label="@string/jadwal" />
+        <activity
+            android:name=".Activity.DoctorPribadi"
+            android:label="@string/doctor"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.CheckUpReminderActivity"
+            android:label="@string/check_up"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.CheckUpHistoryActivity"
+            android:label="check_up_history"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.BMIActivity"
+            android:label="@string/bmi" />
+        <activity
+            android:name=".Activity.BillReminderActivity"
+            android:label="@string/bill_reminder"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwaldanReservasi.LayananLasik"
+            android:label="@string/lasik"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwaldanReservasi.LayananRetina"
+            android:label="@string/retina"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwaldanReservasi.LayananOkulaPlastik"
+            android:label="@string/okuloplastik"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwaldanReservasi.LayananMataAnak"
+            android:label="@string/mata_anak"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwaldanReservasi.LayananStrabismus"
+            android:label="@string/strabismus"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JadwaldanReservasi.LayananLensaKontak"
+            android:label="@string/lensa_kontak"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BMI.BeratBadanIdeal"
+            android:label="@string/bbi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BMI.RasioPinggangIdeal"
+            android:label="@string/rpi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BMI.HitungLemakTubuh"
+            android:label="@string/hlt"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.AddReminder"
+            android:label="@string/add_reminder"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.PesanActivity"
+            android:label="@string/messages"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activity.LoginPage" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Activity.MyAccount"
+            android:label="@string/account"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Dokter :"
+            android:textSize="14.5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/IsiNamaDokter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dokter Fulan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal :"
+            android:textSize="14.5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/IsiTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17/2/2017" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hari :"
+            android:textSize="14.5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/IsiHari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELASA" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu :"
+            android:textSize="14.5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/IsiWaktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10:15 s/d 13:00" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_effect"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>
